@@ -1,0 +1,11 @@
+### Enviar solicitação de verificação do número
+POST https://graph.facebook.com/v18.0/542348042306038/register
+Authorization: Bearer SEU_TOKEN_AQUI
+Content-Type: application/json
+
+{
+  "messaging_product": "whatsapp",
+  "pin": "123456",        // remova se não tiver verificação 2FA
+  "cert": "CnkKNQjLm6nYuau6AxIGZW50OndhIhxDYXJtZW0gQ29uY2llcmdlIGRlIEN1aWRhZG9zUP2dsb8GGkCGQSeJFta4ZuADx9FU/6CBzUl7pS3EAeMSarUtH4m0pmhJddoAtlw6nN0JgMKcS9i+kqv6aSJBdCiRUpuV5u8AEjBtRHr3ybO2pfBas7edrWwgkVji5l/E8i5eMRz5MjrcXtMai7iSoS6SBRTYlJYH3fY=
+"  // seu certificado Base64 aqui (inteiro)
+}

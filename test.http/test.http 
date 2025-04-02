@@ -1,0 +1,2 @@
+### Teste de validação do webhook
+GET http://localhost:3000/webhook?hub.mode=subscribe&hub.verify_token=123456&hub.challenge=TEST
