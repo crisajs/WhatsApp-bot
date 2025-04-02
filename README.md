@@ -1,10 +1,10 @@
-# 🤖 WhatsApp Bot - Curso de Cuidadores via Cloud API
+# WhatsApp Bot - Curso de Cuidadores via Cloud API
 
 Este projeto é uma automação completa via WhatsApp, usando **Node.js** e a **Meta Cloud API**, com foco no envio e recebimento de mensagens para alunos de um curso de cuidadores.
 
 ---
 
-## 🚀 Tecnologias
+## Tecnologias
 
 - Node.js  
 - Express  
@@ -30,7 +30,7 @@ meu-webhook/
 
 ---
 
-## 🛠 Instalação
+## Instalação
 
 1. **Clone o repositório:**
 
@@ -50,7 +50,7 @@ node index.js
 
 5.	Use os arquivos .http com a extensão REST Client no VSCode para testar as requisições.
 
-🔐 Segurança
+***🔐 Segurança***
 
 Este projeto NÃO envia arquivos sensíveis para o GitHub graças ao .gitignore, que ignora:
 	•	node_modules/
